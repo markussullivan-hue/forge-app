@@ -1,0 +1,16 @@
+{
+  "org_id": {{ createdOrgIdState.value || currentOrgIdState.value || null }},
+  "entity_type": "Project",
+  "entity_id": {{ createdProjectIdState.value || selectedProjectIdState.value || null }},
+  "initiated_by_user_id": {{ getCurrentUserId.data?.user_id?.[0] || null }},
+  "initiated_by_email": {{ current_user.email || null }},
+  "regen_flags": {
+    "context": false,
+    "charter": false,
+    "plan": false,
+    "resources": false,
+    "risks": false,
+    "financials": false,
+    "pdf": false
+  }
+}

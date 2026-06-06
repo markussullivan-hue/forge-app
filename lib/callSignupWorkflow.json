@@ -1,0 +1,6 @@
+{
+  "full_name": {{ signUpFullname.value }},
+  "email": {{ signUpEmail.value }},
+  "password": {{ signUpPassword.value }},
+  "org_name": {{ signUpOrgName.value }}
+}

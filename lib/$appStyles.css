@@ -1,0 +1,33 @@
+._retool-signUpEmail input,
+._retool-signUpPassword input {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  caret-color: #ffffff !important;
+  border-color: #333333 !important;
+}
+
+._retool-signUpEmail input::placeholder,
+._retool-signUpPassword input::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+._retool-signUpEmail label,
+._retool-signUpPassword label {
+  color: #ffffff !important;
+}
+
+/* Chrome / Edge / Safari autofill override */
+._retool-signUpEmail input:-webkit-autofill,
+._retool-signUpEmail input:-webkit-autofill:hover,
+._retool-signUpEmail input:-webkit-autofill:focus,
+._retool-signUpPassword input:-webkit-autofill,
+._retool-signUpPassword input:-webkit-autofill:hover,
+._retool-signUpPassword input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #000000 inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+  caret-color: #ffffff !important;
+  border-color: #333333 !important;
+  transition: background-color 9999s ease-out 0s;
+}

@@ -1,0 +1,1 @@
+SELECT status FROM forge_verify_account( {{ urlparams.token }} );

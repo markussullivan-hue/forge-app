@@ -1,0 +1,7 @@
+{
+  "review_id": "{{ reviewId }}",
+  "material_type": "{{ materialTypeSelect.value }}",
+  "ai_relevance": "{{ aiRelevanceSelect.value }}",
+  "methodology_lens": "{{ methodologyLensSelect.value }}",
+  "governance_text": "{{ governanceTextInput.value }}"
+}
