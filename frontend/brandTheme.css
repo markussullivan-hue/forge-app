@@ -1,0 +1,106 @@
+/*
+ * FORGE Logic brand theme overrides.
+ *
+ * Loaded after orgTheme.css. Re-declares the shadcn CSS custom properties to
+ * apply the FORGE Logic palette while preserving shadow / radius / spacing /
+ * typography tokens defined upstream.
+ *
+ * Palette
+ *   Primary (yellow):  #F2C83B   hsl(47 88% 59%)
+ *   Black:             #000000   hsl(0 0% 0%)
+ *   Dark text:         #141419   hsl(240 11% 9%)
+ *   Light text:        #E5E4E2   hsl(40 5% 89%)
+ *   Danger:            #FD021F   hsl(353 98% 50%)
+ *   Info:              #C56A39   hsl(21 55% 50%)
+ *   Warning:           #F2C83B   hsl(47 88% 59%)
+ *   Success:           #488169   hsl(155 28% 39%)
+ *   Highlight:         #FDE68A   hsl(48 97% 77%)
+ *
+ * Borders use a warm yellow-grey tint so they feel part of the FORGE palette.
+ */
+
+:root {
+  /* Surfaces */
+  --background: 40 5% 89%;            /* #E5E4E2 silver canvas */
+  --foreground: 240 11% 9%;           /* #141419 dark text */
+  --card: 0 0% 100%;                  /* white cards lift off silver */
+  --card-foreground: 240 11% 9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 240 11% 9%;
+
+  /* Brand */
+  --primary: 47 88% 59%;
+  --primary-foreground: 240 11% 9%;
+
+  /* Secondary / muted / accent */
+  --secondary: 45 14% 84%;
+  --secondary-foreground: 240 11% 9%;
+  --muted: 45 14% 84%;
+  --muted-foreground: 34 6% 35%;
+  --body-foreground: 240 11% 14%;
+  --accent: 48 97% 88%;
+  --accent-foreground: 240 11% 9%;
+
+  /* Status */
+  --destructive: 353 98% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --warning: 47 88% 59%;
+  --warning-foreground: 240 11% 9%;
+  --success: 155 28% 39%;
+  --success-foreground: 0 0% 100%;
+
+  /* Lines / focus — warm yellow-grey */
+  --border: 45 18% 78%;
+  --input: 45 18% 78%;
+  --ring: 47 88% 59%;
+
+  /* Chart palette */
+  --chart-1: 47 88% 59%;              /* primary yellow */
+  --chart-2: 155 28% 39%;             /* success green */
+  --chart-3: 21 55% 50%;              /* info orange */
+  --chart-4: 48 97% 77%;              /* highlight */
+  --chart-5: 240 11% 25%;             /* deep slate */
+}
+
+.dark {
+  /* Surfaces */
+  --background: 0 0% 0%;              /* #000000 pure black */
+  --foreground: 40 5% 89%;            /* #E5E4E2 */
+  --card: 240 11% 9%;                 /* #141419 */
+  --card-foreground: 40 5% 89%;
+  --popover: 240 11% 9%;
+  --popover-foreground: 40 5% 89%;
+
+  /* Brand */
+  --primary: 47 88% 59%;
+  --primary-foreground: 240 11% 9%;
+
+  /* Secondary / muted / accent */
+  --secondary: 240 8% 13%;
+  --secondary-foreground: 40 5% 89%;
+  --muted: 240 8% 13%;
+  --muted-foreground: 40 6% 65%;
+  --body-foreground: 40 5% 85%;
+  --accent: 40 14% 15%;
+  --accent-foreground: 40 5% 89%;
+
+  /* Status */
+  --destructive: 353 98% 55%;
+  --destructive-foreground: 0 0% 100%;
+  --warning: 47 88% 59%;
+  --warning-foreground: 240 11% 9%;
+  --success: 155 30% 45%;
+  --success-foreground: 0 0% 100%;
+
+  /* Lines / focus — yellow-grey tinted dark */
+  --border: 40 14% 18%;
+  --input: 40 14% 18%;
+  --ring: 47 88% 59%;
+
+  /* Chart palette */
+  --chart-1: 47 88% 59%;
+  --chart-2: 155 30% 45%;
+  --chart-3: 21 55% 55%;
+  --chart-4: 48 97% 77%;
+  --chart-5: 40 5% 89%;
+}
