@@ -1,0 +1,97 @@
+{
+  "private": true,
+  "retoolMetadata": {
+    "classicAppConversion": {
+      "classicPageUuid": "b0372d6e-5e85-11f1-a1ec-430bce725720"
+    }
+  },
+  "retool": {
+    "app": {
+      "uuid": "366dd7b6-5e86-11f1-89b7-0ff2bffbbbec",
+      "name": null,
+      "resourceReferencesByFile": {
+        "/backend/auth/checkCredentials.ts": [],
+        "/backend/auth/getCurrentOrgId.ts": [],
+        "/backend/auth/getCurrentUserId.ts": [],
+        "/backend/auth/seedAdminUser.ts": [],
+        "/backend/auth/signup.ts": [
+          {
+            "name": "79df1591-aa80-466b-998e-c5514c629072",
+            "displayName": "wf_signup_webhook",
+            "type": "restapi"
+          }
+        ],
+        "/backend/auth/verifyAccount.ts": [
+          {
+            "name": "9fde9450-f8fe-4709-9658-72f20a3859fc",
+            "displayName": "wf_verify_webhook",
+            "type": "restapi"
+          }
+        ],
+        "/backend/charter/getActiveProjectPdf.ts": [],
+        "/backend/charter/getCurrentArtefactsForEntity.ts": [],
+        "/backend/charter/getCurrentObservationsForEntity.ts": [],
+        "/backend/charter/getGenerationRunsQuery.ts": [],
+        "/backend/charter/getLatestPdfForEntity.ts": [],
+        "/backend/charter/getProjectsForSelector.ts": [],
+        "/backend/dashboard/getContinueWorkingProjects.ts": [],
+        "/backend/dashboard/getDashboardKpis.ts": [],
+        "/backend/dashboard/getDecisionsNeeded.ts": [],
+        "/backend/dashboard/getRecentGenerationRuns.ts": [],
+        "/backend/dashboard/getRisksAssuranceItems.ts": [],
+        "/backend/governance/getGovernanceReviewResult.ts": [],
+        "/backend/governance/prepareGovernanceReviewRun.ts": [],
+        "/backend/governance/runGovernanceReviewWorkflow.ts": [],
+        "/backend/user.d.ts": [],
+        "/backend/wizard/createProject.ts": [],
+        "/backend/wizard/createProjectContext.ts": [],
+        "/backend/wizard/createProjectSystems.ts": [],
+        "/backend/wizard/lookups/_runLookup.ts": [],
+        "/backend/wizard/lookups/deliveryModelSelect.ts": [],
+        "/backend/wizard/lookups/getBudgetConfidenceOptions.ts": [],
+        "/backend/wizard/lookups/getCreatComplexityLevels.ts": [],
+        "/backend/wizard/lookups/getCreateBusinessDrivers.ts": [],
+        "/backend/wizard/lookups/getCreateConfidenceLevel.ts": [],
+        "/backend/wizard/lookups/getCreateDeliveryType.ts": [],
+        "/backend/wizard/lookups/getCreateFunctions.ts": [],
+        "/backend/wizard/lookups/getCreateITSystemsTypes.ts": [],
+        "/backend/wizard/lookups/getCreateLifecycleStage.ts": [],
+        "/backend/wizard/lookups/getCreateOrgFamiliarity.ts": [],
+        "/backend/wizard/lookups/getCreateScale.ts": [],
+        "/backend/wizard/lookups/getCreateScopes.ts": [],
+        "/backend/wizard/lookups/getCreateScopesInformation.ts": [],
+        "/backend/wizard/lookups/getCreateScopesOrganisation.ts": [],
+        "/backend/wizard/lookups/getCreateScopesProcesses.ts": [],
+        "/backend/wizard/lookups/getCreateScopesTechnology.ts": [],
+        "/backend/wizard/lookups/getCreateServiceIndustryType.ts": [],
+        "/backend/wizard/lookups/getDeliveryModelGroups.ts": [],
+        "/backend/wizard/lookups/getDeliveryModelsForGroup.ts": [],
+        "/backend/wizard/lookups/getImpactBuckets.ts": [],
+        "/backend/wizard/lookups/getKeyRoleOptions.ts": [],
+        "/backend/wizard/lookups/getOsItSystemTypesOptions.ts": [],
+        "/backend/wizard/lookups/getOsScopeInformationOptions.ts": [],
+        "/backend/wizard/lookups/getOsScopeOrganisationOptions.ts": [],
+        "/backend/wizard/lookups/getOsScopePotiOptions.ts": [],
+        "/backend/wizard/lookups/getOsScopeProcessesOptions.ts": [],
+        "/backend/wizard/lookups/getOsScopeTechnologyOptions.ts": [],
+        "/backend/wizard/lookups/getProjectsColumnDefaults.ts": [],
+        "/backend/wizard/lookups/getProjectsDomains.ts": [],
+        "/backend/wizard/lookups/getProjectsRequiredColumns.ts": [],
+        "/backend/wizard/lookups/getResourceModelOptions.ts": [],
+        "/backend/wizard/lookups/getStakeholderGroupOptions.ts": [],
+        "/backend/wizard/lookups/getSystemCategories.ts": [],
+        "/backend/wizard/lookups/getSystems.ts": [],
+        "/backend/wizard/pollGenerationProgress.ts": [],
+        "/backend/wizard/runStagedGenerationPipeline.ts": [
+          {
+            "name": "7a1daafc-6d0e-4d68-84a1-4dbc78159323",
+            "displayName": "wf_artefact_pack_webhook",
+            "type": "restapi"
+          }
+        ],
+        "/backend/auth/pingForgeDb.ts": [],
+        "/backend/auth/checkCredentialsFresh.ts": []
+      }
+    }
+  }
+}

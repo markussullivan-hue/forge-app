@@ -1,0 +1,77 @@
+<Screen
+  id="signUpPage"
+  _customShortcuts={[]}
+  _hashParams={[]}
+  _order={5}
+  _searchParams={[]}
+  browserTitle={null}
+  title={null}
+  urlSlug={null}
+  uuid="9edf1594-1183-4a77-9c92-2c28fb065538"
+>
+  <JavascriptQuery
+    id="handleSignupResult"
+    isMultiplayerEdited={false}
+    query={include("../lib/handleSignupResult.js", "string")}
+    resourceName="JavascriptQuery"
+    showFailureToaster={false}
+    showSuccessToaster={false}
+  />
+  <WorkflowRun
+    id="callSignupWorkflow"
+    isMultiplayerEdited={false}
+    notificationDuration={4.5}
+    resourceName="WorkflowRun"
+    showFailureToaster={false}
+    showSuccessToaster={false}
+    workflowId="5950224b-47ce-412d-9241-d1d6e436fcb1"
+    workflowParams={include("../lib/callSignupWorkflow.json", "string")}
+  >
+    <Event
+      id="1d6563e0"
+      event="success"
+      method="trigger"
+      params={{}}
+      pluginId="handleSignupResult"
+      type="datasource"
+      waitMs="0"
+      waitType="debounce"
+    />
+    <Event
+      id="db3d3156"
+      event="failure"
+      method="trigger"
+      params={{}}
+      pluginId="handleSignupResult"
+      type="datasource"
+      waitMs="0"
+      waitType="debounce"
+    />
+  </WorkflowRun>
+  <JavascriptQuery
+    id="validateSignup"
+    notificationDuration={4.5}
+    query={include("../lib/validateSignup.js", "string")}
+    resourceName="JavascriptQuery"
+    showSuccessToaster={false}
+  />
+  <Frame
+    id="$main6"
+    enableFullBleed={false}
+    isHiddenOnDesktop={false}
+    isHiddenOnMobile={false}
+    padding="8px 12px"
+    sticky={null}
+    type="main"
+  >
+    <Image
+      id="forgeMainLogo"
+      heightType="fixed"
+      horizontalAlign="center"
+      retoolStorageFileId="2939f030-8450-435d-9363-ccd927bb0387"
+      src="https://picsum.photos/id/1025/800/600"
+      srcType="retoolStorageFileId"
+    />
+    <Include src="./containerSignUp.rsx" />
+  </Frame>
+</Screen>

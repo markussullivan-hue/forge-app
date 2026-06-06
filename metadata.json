@@ -1,0 +1,37 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "b0372d6e-5e85-11f1-a1ec-430bce725720",
+  "appTemplate": {
+    "appThemeId": "custom",
+    "pageCodeFolders": {
+      "object": {
+        "signUpPage": {
+          "array": []
+        },
+        "loginPage": {
+          "array": []
+        },
+        "GovernanceReviewPage": {
+          "array": []
+        },
+        "dashboardPage": {
+          "array": []
+        },
+        "CharterGenerationPage": {
+          "array": []
+        },
+        "FORGECharterGenerationWizard": {
+          "array": []
+        },
+        "verifyPage": {
+          "array": []
+        }
+      }
+    },
+    "queryStatusVisibility": true,
+    "rootScreen": "loginPage",
+    "appThemeName": "Custom app theme",
+    "version": "4.1.0"
+  }
+}
